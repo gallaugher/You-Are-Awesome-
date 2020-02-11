@@ -8,7 +8,6 @@
 
 
 import UIKit
-import AVFoundation
 
 class ViewController: UIViewController {
     @IBOutlet weak var messageLabel: UILabel!
@@ -17,7 +16,6 @@ class ViewController: UIViewController {
     var imageNumber = -1
     var messageNumber = -1
     let totalNumberOfImages = 9
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
